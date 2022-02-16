@@ -1,0 +1,52 @@
+What is data structure?
+- A data structure is a collection of data organized in some fashion
+- The structure not only stores data, but also supports operations for 
+accessing and manipulating the data.
+
+Data Structures: Array, Stack, Queue, Priority Queue, Set, Map
+Functions = .push(), .pop(), .front(), .empty(), .top()
+
+
+1) Array / Vector
+- The size of array is fixed once it is created
+- can store any type of data, can be accessed using index
+
+*Creating Vectors using python*
+list = [1, 2, 3]
+Vector1 = np.array(list)
+// Declaring size of Vector
+vector<int> x(10);
+
+
+2) Stack (Last-In/ First-Out or First-In/ Last Out)
+- The Stack class represents last-in-last-out stack of objects. The elements are accessed only from the top of the stack 
+- You can retrieve, insert, remove an element from the top of the stack
+(Its like a stack of plate, you can only access the top plate)
+
+"""
+LIFO STACK in python
+from queue import LifoQueue
+stack = LifoQueue(maxsize = ?)
+.qsize = returns the number of elements 
+.put() = to push element into stack 
+.get() = returns the element popped 
+.full() = to check if the stack is full
+"""
+
+
+3) Queue (First-in-First-out)
+- A queue is a first-in-first-out data structure 
+- Elements are appended to the end of the queue and are removed from the beginning of the queue
+
+
+4) Priority Queue
+- Element with the highest priority is removed first
+- .push(), .pop(), .top(), .empty()
+
+5) Set *unique, will not contain duplicate
+- Sets are containers that store unique elements following a specific order.
+
+6) Map 
+- Maps only stores unique keys, and the key themselves are in sorted order.
+- Searching for an element is very fast because the keys are already in order
+- acts like dict in python
