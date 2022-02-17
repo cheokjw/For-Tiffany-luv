@@ -1,9 +1,0 @@
-from queue import LifoQueue 
-
-stack = LifoQueue()
-
-print(stack.qsize())
-
-stack.put('a')
-
-print(stack.get())
